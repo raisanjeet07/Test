@@ -1,0 +1,5 @@
+var date = new Date(new Date().getTime() + 20*60*1000);
+db.Properties.insert( [
+{"_class":"com.medlife.configclient.data.Property","component":"MlWebServices","key":"defaultProductSearchCity","value":"Bangalore","createdTime":date,"updatedTime":date,"updatedBy":"Admin"},
+{"_class":"com.medlife.configclient.data.Property","component":"MlRestServices","key":"defaultProductSearchCity","value":"Bangalore","createdTime":date,"updatedTime":date,"updatedBy":"Admin"}
+],{multi:true})
